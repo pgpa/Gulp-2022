@@ -24,12 +24,6 @@
 	}
 
 Перенос сборки в новый проэкт.
-     Заменяем:
-	"browser-sync": "^2.27.7" на
-	"browser-sync": "latest" - для всех, кроме:
-
-	"webp-converter": "^2.2.3" меняем на
-	"webp-converter": "2.2.3"
 
      Забираем:
              2 папки :
@@ -38,6 +32,13 @@
             2 файла
 	gulpfile.js
 	package.json
+	
+      Заменяем:
+	"browser-sync": "^2.27.7" на
+	"browser-sync": "latest" - для всех, кроме:
+
+	"webp-converter": "^2.2.3" меняем на
+	"webp-converter": "2.2.3"
     
         Установка:
 	
